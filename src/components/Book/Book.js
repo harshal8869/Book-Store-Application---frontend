@@ -14,7 +14,7 @@ const Book = (props) => {
             .then(()=>history("/"))
             .then(() => history("/books"));
     }
-    return (
+    return  (
         <div className="card">
             <img src={image} alt={name} />
             <article>By {author}</article>
